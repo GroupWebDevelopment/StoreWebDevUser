@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ajslogo{
+    width: 20%;
+}
+.inlinediv{
+    display: inline-flex;
+/*     background-color: #EEEEEE; */
+}
+.login{
+    display: flex;
+    justify-content: center;
+    border-right: solid;
+    border-color: #EEEEEE;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.btn{
+    color: #11468F;
+}
+.btn :hover{
+    color: #DA1212;
+}
+@media only screen and (max-width: 991px) {
+    .login {
+        border:none;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    .inlinediv{
+        display: inline-block;
+/*         position: relative;
+        left: 75px; */
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+  }
