@@ -94,9 +94,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+	position: relative;
+	top: 30px;
 }
 .ajslogo{
-    width: 20%;
+    width: 100%;
 }
 
 .container {
@@ -248,7 +250,7 @@ header{
 
 @media only screen and (max-width: 991px) {
     .ajslogo {
-        width: 50%;
+        width: 100%;
     }
     .container {
 	width: 500px;
